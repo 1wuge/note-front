@@ -1,0 +1,39 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei",
+    system-ui, sans-serif;
+  color: #1f2329;
+  background: #f6f7f9;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #cfe6ff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d5d9df;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bcc2cb;
+}
